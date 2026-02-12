@@ -129,4 +129,13 @@ opyiat_brosochek(int(input('колво пыток - ')))
 
 # задание 8
 
-        
+len_password = int(input("введите длину пароля: "))
+
+letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" # нам же нельзя использовать string.ascii_letters
+
+password = ""
+
+for i in range(length):
+    password += random.choice(letters)
+
+print("Случайный пароль:", password)
