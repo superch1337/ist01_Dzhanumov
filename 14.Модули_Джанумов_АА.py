@@ -135,7 +135,7 @@ letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" # нам же �
 
 password = ""
 
-for i in range(length):
+for i in range(len_password):
     password += random.choice(letters)
 
 print("Случайный пароль:", password)
